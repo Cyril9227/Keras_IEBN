@@ -12,4 +12,5 @@ Instance Enhancement Batch Normalization (IEBN) is an attention-based version of
   <img src="img/iebn.jpg" width="400" height="300">
 </p>
 
+## Usage
 Please refer to the notebook for an usage example.
