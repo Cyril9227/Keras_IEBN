@@ -69,5 +69,5 @@ class BatchAttNorm(layers.BatchNormalization):
             'momentum' : self.momentum,
             'epsilon' : self.epsilon
         }
-        base_config = super(BatchNormalization, self).get_config()
+        base_config = super(layers.BatchNormalization, self).get_config()
         return dict(list(base_config.items()) + list(config.items()))
